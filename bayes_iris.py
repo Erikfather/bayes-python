@@ -96,7 +96,8 @@ if __name__ == '__main__':
     Iris_virginica_u_x1,Iris_virginica_u_x2,Iris_virginica_u_x3,Iris_virginica_u_x4,\
     Iris_virginica_variance_x1,Iris_virginica_variance_x2,Iris_virginica_variance_x3,\
     Iris_virginica_variance_x4=calculate_junzhi_and_fangcha(Iris_virginica_data)
-
+    
+    #开始测试
     test_data=read_test_data(testname)
     #print ('test_data',test_data)
     #估计类先验概率
